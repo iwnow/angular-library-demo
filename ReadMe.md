@@ -1,6 +1,6 @@
-#### Demo for building angular5 library
-Exports an axample of HelloButtonComponent
-Build library
+#### 🚀Demo for building angular5 library🚀
+Exports an axample of HelloButtonComponent in umd, es5, es2015 (FESM) formats
+####Build library
 ```
 npm run build
 ```
