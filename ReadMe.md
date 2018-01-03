@@ -1,10 +1,10 @@
 #### 🚀Demo for building angular5 library🚀
 Exports an axample of HelloButtonComponent in umd, es5, es2015 (FESM) formats
-####Build library
+#### Build library
 ```
 npm run build
 ```
-Install to project
+#### Install to project
 ```sh
 npm i @iwnow/angular-ui-lib 
 ```
@@ -12,7 +12,7 @@ or
 ```bash
 yarn add @iwnow/angular-ui-lib 
 ```
-##### Use library
+#### Use library
 Import HelloButtonModule
 ```javascript
 import { BrowserModule } from '@angular/platform-browser';
