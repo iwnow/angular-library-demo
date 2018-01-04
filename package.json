@@ -1,6 +1,6 @@
 {
   "name": "@iwnow/angular-ui-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "demo angular5 lib",
   "main": "./bundles/ngx-hello-button.umd.js",
   "module": "./esm5/ngx-hello-button.js",
@@ -8,7 +8,7 @@
   "typings": "./ngx-hello-button.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pub": "npm publish dist --access=public",
+    "pub": "npm run build && npm publish dist --access=public",
     "build":
       "npm run clean && npm run build:inline && npm run build:esm2015 && npm run build:fesm2015 && npm run build:esm5 && npm run build:fesm5 && npm run build:umd && npm run build:min && npm run move:assets",
     "build:inline": "node inlineAssets.js && cp public_api.ts ./tmp/",

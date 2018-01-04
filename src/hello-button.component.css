@@ -1,5 +1,7 @@
 button {
   outline: none;
   background-color: blueviolet;
-  color: brown;
+  color: lightyellow;
+  height: 60px;
+  min-width: 80px;
 }
